@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/css/reset.css">
+        <link rel="stylesheet" href="src/css/root.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        <title>The Meal - Votre recette</title>
+    </head>
+    <body>
+        <!--Début du formulaire-->
+        <div class="formulaire">
+            <div class= "titre">
+                <h1>THE MEAL</h1>
+                <i class="fas fa-utensils fa-3x"></i>
+            </div>
+            
+            <form>
+                <label for="ingredient">Entrez un aliment (en anglais) et choisissez votre recette</label></br>
+                <input class="ingredient" type="text" id="ingredient">
+            </form>
+            <div class="random">
+                <button id="btn">Recette au hasard</button>
+            </div>
+        </div>
+        <!--Fin du formulaire-->
+    
+        <!--Début de la zone d'affichage des recettes-->
+        <div class="container" id="display-meals"></div>
+
+        <!--Fin de la zone d'affichage des recettes-->
+        
+        <!--Début du footer-->
+        <footer class="absolute">
+            <p>©2021 recettes récupérées avec <i class="fas fa-heart"></i> !!! </p>
+             <p><a href="https://www.linkedin.com/in/gr%C3%A9gory-boes-98b0b21a3/" target='_blank'>Contact</a></p>
+        </footer>
+        
+       
+        
+        <script src="src/js/random.js"></script>
+        <script src="src/js/search.js"></script>
+
+    </body>
+</html>

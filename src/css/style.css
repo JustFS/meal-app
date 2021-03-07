@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=DM+Sans&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap'); */
+
+
+
+
+body {
+    background-image: url('../img/cuisine_filter_compress.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'DM Sans', sans-serif;
+    margin: 0 auto;
+   
+    
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-primary);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 5em;
+    margin: 0;
+}
+
+.meals i {
+    color: var(--color-primary);
+}
+.formulaire {
+    background-color: var(--color-background);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulaire .titre{
+    display: flex;
+    align-items: center;  
+}
+
+
+.formulaire i {
+    color: var(--color-secondary);
+    margin-left: 15px;  
+}
+
+
+
+form {
+    margin: 15px 0 20px 0;
+    text-align: center;
+    color: var(--color-light); 
+    border: 2px dashed var(--color-primary); 
+    padding: 10px;
+     
+}
+
+form input {
+    border: 2px solid var(--color-primary);
+    margin: 10px 0 0px 0;
+}
+
+
+form a {
+    color:var(--color-primary);
+}
+
+.random button {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border: none;
+    padding: 10px;
+    cursor: pointer;  
+}
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+.meals {
+    background-color: var(--color-background);
+    margin: 50px 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px var(--color-dark);
+    color: var(--color-light);
+}
+
+.meals img {
+    border-radius: 15px;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+
+.meals iframe {
+    width: 320px;
+    height: 200px;
+
+}
+
+.meals h1 {
+    font-size: 3em;
+    color: var(--color-primary);
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 25px 0;
+
+
+}
+
+.meals h2 {
+    font-size: 1.3em;
+    color: var(--color-light);
+    margin-bottom: 30px;
+}
+
+.meals p {
+    font-size: 1em;
+    color: var(--color-light);
+    margin: 35px 0;
+    max-width: 500px;
+
+}
+
+p.ingredients-title {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+ul.ingredients {
+    margin: 0;
+    font-style: italic;
+}
+
+span {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    
+    background-color: var(--color-background);
+    color: var(--color-light);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer a {
+    color: var(--color-primary); 
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color:var(--color-white); 
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
+footer i {
+    color: var(--color-primary);
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+
+
+.absolute {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100vh; 
+}
+
+.static {
+    position: static;
+}
+
+
+
+
